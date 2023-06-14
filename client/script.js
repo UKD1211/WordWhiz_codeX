@@ -102,7 +102,7 @@ const handleSubmit = async (e) => {
 
     // So we already made the client end(frontend part) and the server end(backend part)
     // so we have to connect this both part. and have to fetch the data from the server side
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://codex-ghre.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
