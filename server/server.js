@@ -32,7 +32,7 @@ app.get('/', async (req, res) => {
 
 // this app.post route allowes us to have a body/preload
 // parameters:: 
-// temperature: higher temperature value means the module will take more risk 
+// temperature: higher temperature value means the module will take more risk /it actually defines the randomness of the gpt.
 // max_tokens: maximum number of tokens allowed to generate in completion, lets take its value 3000 so it actually gives a some big responses.
 // top_p: alternative to sampling with temperature, called nucleus sampling
 // frequency_penalty: it not going to repeat similar sentences often,so we can set the value 0.5.Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.
@@ -45,7 +45,7 @@ app.post('/', async (req, res) => {
             model: "text-davinci-003",
             prompt: `${prompt}`,
             temperature: 0,
-            max_tokens: 3000,
+            max_tokens: 900,
             top_p: 1,
             frequency_penalty: 0.5,
             presence_penalty: 0,
