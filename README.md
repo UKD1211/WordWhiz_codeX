@@ -21,7 +21,7 @@ In summary,  Codex is a powerful AI language model that can provide you with int
 
 ## pequeño video
 
-For an example that how this codex works i provide a yt video here, can check it out:
+For an example that how this codex works i provide a youtube video here, can check it out:
 
 https://youtu.be/HsrYZxbTEcs
 
